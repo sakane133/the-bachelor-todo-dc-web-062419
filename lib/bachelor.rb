@@ -57,5 +57,10 @@ def get_average_age_for_season(data, season)
       if key == "age"
         counter += 1
         age += value.to_f
+        
+      end 
+    end
+  end
+  age/counter.round
     
 end
