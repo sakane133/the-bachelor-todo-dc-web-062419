@@ -19,6 +19,7 @@ def get_contestant_name(data, occupation)
        return person["name"]
      end
    end 
+   end 
  end 
 end
 
