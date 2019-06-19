@@ -16,6 +16,7 @@ def get_contestant_name(data, occupation)
    names.each do |key, value|
      if value == "occupation"
        return names["name"]
+     end
    end 
  end 
 end
