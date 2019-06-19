@@ -13,7 +13,7 @@ end
 
 def get_contestant_name(data, occupation)
  data.each do |season, value|
-   season.each do |person|
+   value.each do |person|
      person.each do |key, v|
      if v == occupation
        return person["name"]
