@@ -42,6 +42,7 @@ def get_occupation(data, hometown)
    value.each do |person|
      person.each do |key, v|
      if v == hometown
+       return person["occupation"]
    end
  end
  end
