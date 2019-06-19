@@ -16,6 +16,7 @@ def get_contestant_name(data, occupation)
    names.each do |key, value|
      binding.pry
      if value == "occupation"
+       
    end 
  end 
 end
